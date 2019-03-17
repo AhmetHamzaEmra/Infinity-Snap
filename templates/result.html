@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body style="background-color: black">
+    
+    <div>
+        <div class="result" style="text-align: center;  font-size: 20px; color: #ffffff; padding-top: 10%">
+            <img src="https://thumbs.gfycat.com/MilkyBriskAnura-size_restricted.gif" >
+            <div style="text-align: center;">
+                <div >
+                    <table class="table" id="tweets", align="center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tweet</th>
+                                <th scope="col">Num of Favorite</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for tweet in tweets %}
+                            <tr >
+                                <td>{{ tweet[0] }}</th>
+                                <td> {{ tweet[1] }} </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+    </div>
+</body>
+
+</html>

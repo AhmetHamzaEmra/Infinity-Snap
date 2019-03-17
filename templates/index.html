@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body style="background-color: black">
+    
+<div tyle="text-align: center;  font-size: 20px; color: #ffffff; padding-top: 10%">
+            <div class="iphone-mockup">
+                <div class="screen"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="text-align: center; font-size: 20px; color: #ffffff; padding-top: 2%;">
+                    
+                    <h1 style="font-size: 50px;">Infinity Snap</h1>
+                    <img src="https://gamepedia.cursecdn.com/fortnite_gamepedia/1/1b/ThanosInfinityGauntlet.png" >
+                    <p>
+
+                    <form style="align-items: center; text-align: center;" method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data" >
+                        <label style="margin-bottom: 20px; display: block;">
+                        API key: <input type="text" name="API_key" id="API_key" ><br>
+                        </label>
+                        <label style="margin-bottom: 20px; display: block; ">
+                        API secret Key: <input type="text" name="API_secret_key" id="API_secret_key" ><br>
+                        </label>
+                        <label style="margin-bottom: 20px; display: block;">
+                        Access_token: <input type="text" name="Access_token" id="Access_token"  ><br>
+                        </label>
+                        <label style="margin-bottom: 20px; display: block;">
+                        Access_token_secret: <input type="text" name="Access_token_secret" id="Access_token_secret"  ><br>
+                        </label>
+                        <input  style=" padding-left:70px;padding-right:70px;background-color:#333333; font-weight:normal;font-size:22px; color:blanchedalmond" class ="btn btn-danger" type="submit" value="SNAP">
+                    </form>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
